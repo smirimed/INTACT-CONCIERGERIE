@@ -1,0 +1,24 @@
+@import url('https://fonts.cdnfonts.com/css/lucida-handwriting-std');
+:root {
+    --blue: rgb(13 110 253);
+    --white:white;
+    --grey:rgba(195, 195, 194, 0.847);
+    --black:black;
+    --yellow:rgb(251, 222, 168);
+    
+}
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+
+}
+img{
+   
+   height: 100%;
+   width: 100%;
+    /* object-fit: cover; */
+}
+  a {
+    text-decoration: none;
+  }

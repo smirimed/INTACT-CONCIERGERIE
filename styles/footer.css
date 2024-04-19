@@ -1,0 +1,22 @@
+footer{
+    height:12rem ;
+    width:100%;
+    position :relative;
+    background-color: var(--blue);
+    margin-top: 10rem;
+    
+
+}
+
+footer img{
+    position: absolute;
+    top: -7rem;
+    height: 8rem;
+    width: 90vw;
+    margin: 0 auto;
+    left: 50%;
+    transform: translateX(-50%);
+
+    
+    
+}

@@ -1,0 +1,141 @@
+
+
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 5rem;
+  background-color: var(--white);
+  z-index: 99;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.85rem;
+  font-weight: bold;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  box-shadow: 0 2px 10px rgba(181, 181, 181, 0.785);
+  
+}
+nav .navbar-brand{
+  margin-left: 7rem;
+}
+
+nav .nav-menu {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 60%;
+  list-style: none;
+  
+  
+  
+}
+
+nav .nav-menu li{
+  
+  height: 3rem;
+ 
+  text-wrap: none;
+
+  line-height: 3rem;
+  
+  /* text-shadow: 1px 1px 1px rgb(9, 9, 9); */
+}
+nav .nav-menu li a:hover{
+  font-weight: bolder;
+  color:var(--blue);
+  transition: all .2s ease-in-out;
+  cursor: pointer;
+}
+nav .nav-menu a,
+nav .navbar ul li a {
+  color:rgba(0, 0, 0, .6);
+  text-shadow: 2px 2px 4px var(--blackShadow);
+  text-align: center;
+  z-index: 1;
+  letter-spacing: .12rem;
+  
+
+}
+
+.menusvg{
+  color:grey;
+  text-shadow: 2px 2px 4px var(--blackShadow);
+  
+} 
+/* .menu-icon {
+  fill: var(--blue);
+  
+} */
+nav #logo {
+  width: 9rem;
+  
+}
+.navbar.active {
+  top: 80px;
+}
+.filtred {
+  filter: blur(4px);
+}
+.navbar {
+  
+  list-style: none;
+  padding: 0;
+  position: absolute;
+  top: -400px;
+  left: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--bleunavbar);
+  width: 100%;
+  color: var(--white);
+  
+  font-weight: 500;
+  text-shadow: 2px 2px 4px var(--blackShadow);
+}
+.navbar li {
+  padding: 1rem;
+  /* border: 1px solid red; */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  /* border-bottom: 2px solid black; */
+  border-bottom: 1px solid rgba(255, 253, 253, 0.523);
+}
+
+@media screen and (min-width: 1200px) {
+  nav .menu-icon ,nav .menusvg{
+    display: none;
+  }
+  
+}
+
+@media screen and (max-width: 1200px) {
+  nav > .nav-menu,
+  .phone {
+    display: none;
+  }
+  .navbar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  
+  
+  nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 2rem 0;
+    /* height: 6rem; */
+    width: 100%;
+  }
+  nav .navbar-brand{
+    margin-left: unset;
+  }
+}
