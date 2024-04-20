@@ -7,27 +7,27 @@
     margin: 0 auto;
     background-color: rgba(224, 223, 223, 0.618);
     border-radius: 1rem;
-    margin-top: 5rem;
+    margin-top: 3rem;
 }
 .offre .offre-title{
-    border-radius: 1rem;
+  /* border: 1px solid red; */
+    /* border-radius: 1rem; */
     text-align: center;
-    padding: 2rem 0;
-    margin: 2rem;
+    /* padding: 1rem 0; */
+    margin: 2rem 0;
     /* box-shadow: 0 2px 5px rgba(181, 181, 181, 0.785); */
-    color: var(--white);
+    color: var(--blue);
     font-weight: 900;
-    font-size: 1.5rem;
-    text-shadow: 1px 1px 2px rgb(4, 4, 4);
-    font-family: "Lugrasimo";
+    font-size: 3rem;
+    text-shadow: 1px 1px 2px rgb(255, 255, 255);
+    /* font-family: "Lugrasimo"; */
+    font-family: "Caveat", cursive;
     letter-spacing: .12rem;
-    background-color: var(--blue);
+    /* background-color: var(--blue); */
    
     
 }
-.offre .offre-title span{
-    color: rgb(222, 218, 182);
-}
+
 .offre .offre-list{
     
     width: 90%;
@@ -52,7 +52,7 @@
     border-radius: 1rem 1rem 0 0;
 }
 .offre .offre-list li p{
-    color: var(--blue);
+    color: var(--black);
     margin:1rem auto;
     font-size: 2rem;
     font-family: "Caveat", cursive;
@@ -91,7 +91,10 @@
      grid-template-columns: unset;
     }
     .offre {
-      margin-top: 15rem;
+      margin-top: 2rem;
+    }
+    .offre .offre-title{
+      font-size: 2rem;
     }
   }
   
